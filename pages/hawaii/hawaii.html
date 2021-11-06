@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Let's Go Places</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" type="text/css" href="../../css/global/global.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="../../css/destination/hawaii.css"
+    />
+  </head>
+  <body>
+    <header class="container">
+      <h3>Travel Site</h3>
+      <script>
+        const items = document.querySelectorAll("ul li");
+        items.forEach((item) => {
+          item.addEventListener("click", () => {
+            document
+              .querySelector("li.nav-bar__list--home")
+              .classList.remove("nav-bar__list--home a");
+            item.classList.add("nav-bar__list--home");
+          });
+        });
+      </script>
+      <nav>
+        <ul class="nav-bar__list">
+          <li class="nav-bar__list--home">
+            <a href="/felipe-almendares-travelsite/travelsite.html">Home</a>
+          </li>
+          <li>
+            <a href="/felipe-almendares-travelsite/pages/hawaii/hawaii.html"
+              >Hawaii</a
+            >
+          </li>
+          <li>
+            <a href="/felipe-almendares-travelsite/pages/iceland/iceland.html"
+              >Iceland</a
+            >
+          </li>
+          <li>
+            <a href="/felipe-almendares-travelsite/pages/greece/greece.html"
+              >Greece</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero-image">
+      <h2>Hawaii</h2>
+      <div class="weekend-itinerary">
+        <div class="weekend-itinerary__friday">
+          <h4>Friday</h4>
+          <ul>
+            <li>Brekfast</li>
+            <li>Lunch</li>
+            <li>Dinner</li>
+            <li>Snorkeling</li>
+          </ul>
+        </div>
+
+        <div class="weekend-itinerary__saturday">
+          <h4>Saturday</h4>
+          <ul>
+            <li>Brekfast</li>
+            <li>Lunch</li>
+            <li>Dinner</li>
+            <li>Snorkeling</li>
+          </ul>
+        </div>
+        <div class="weekend-itinerary__sunday">
+          <h4>Sunday</h4>
+          <ul>
+            <li>Brekfast</li>
+            <li>Lunch</li>
+            <li>Dinner</li>
+            <li>Snorkeling</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-container">
+      <div class="footer-container__contacts">
+        <h2>Contact</h2>
+        <h3>EMAIL</h3>
+        <p>info@travelsite.com</p>
+      </div>
+      <div class="hours">
+        <h2>Hours</h2>
+        <h3>MONDAY-FRIDAY</h3>
+        <p>9:00 AM - 5:00 PM</p>
+        <h3>Saturday</h3>
+        <p>10:00 AM - 4:00 PM</p>
+        <h3>Sunday</h3>
+        <p>Closed</p>
+      </div>
+      <div class="social">
+        <h2>Social</h2>
+        <nav>
+          <ul>
+            <li>
+              <a href="http://instagram.com">
+                <img
+                  src="/felipe-almendares-travelsite/Assets/Icons/icon-instagram.png"
+                  width="30px"
+                  alt="instagram"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="http://facebook.com">
+                <img
+                  src="/felipe-almendares-travelsite/Assets/Icons/icon-facebook.png"
+                  width="20px"
+                  alt="facebook"
+                />
+              </a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com">
+                <img
+                  src="/felipe-almendares-travelsite/Assets/Icons/icon-twitter.png"
+                  width="30px"
+                  alt="twitter"
+                />
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

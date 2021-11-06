@@ -1,0 +1,131 @@
+.nav-bar__list li {
+  display: inline-block;
+  margin: 2px;
+  align-items: baseline;
+}
+.nav-bar__list a {
+  text-decoration: none;
+  color: #335576;
+}
+
+.nav-bar__list li {
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+}
+.nav-bar__list--home a::after {
+  position: absolute;
+  content: "";
+  height: 3px;
+  width: 100%;
+  background-color: #db7a4e;
+  left: 0;
+  bottom: -5px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  animation: appear 0.5s linear;
+}
+@keyframes appear {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: medium;
+  align-items: center;
+  position: fixed;
+  color: #335576;
+  width: 100vw;
+  height: 50px;
+  background-color: #ffffff;
+}
+.container h3 {
+  margin: 80px;
+}
+.footer-container {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+
+  text-align: center;
+  background-color: #fefaf5;
+}
+.footer-container__contacts {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.footer-container__contacts h2 {
+  color: #335576;
+  font-size: large;
+  margin: 6px;
+}
+.footer-container__contacts h3 {
+  font-size: smaller;
+  color: #db7a4e;
+  margin: 5px;
+}
+.footer-container__contacts p {
+  color: #335576;
+  margin: 6px;
+}
+.hours {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.hours h2 {
+  color: #335576;
+  font-size: large;
+  margin: 6px;
+}
+.hours p {
+  color: #335576;
+  margin: 6px;
+  display: flex;
+}
+.hours h3 {
+  display: flex;
+  color: #db7a4e;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: small;
+}
+.social li {
+  list-style: none;
+  justify-items: center;
+  display: flex;
+}
+.social {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.social h2 {
+  color: #335576;
+  font-size: large;
+}
+.social a {
+  text-decoration: none;
+}
+.social li {
+  display: inline;
+
+  margin: 20px;
+}
+.social nav {
+  justify-items: center;
+  display: flex;
+}
