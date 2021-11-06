@@ -5,7 +5,7 @@
 }
 
 .hero-image {
-  background-image: url("../../Assets/Images/hawaii.jpg");
+  background-image: url("../assets/Images/hawaii.jpg");
   width: 100vw;
   height: 100vh;
   background-position: center;
