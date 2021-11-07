@@ -3,20 +3,14 @@
   margin: 0px;
 }
 
-.nav-bar__list li {
-  display: inline-block;
-  margin: 5px;
-  align-items: baseline;
-}
-.nav-bar__list a {
-  text-decoration: none;
-  color: #335576;
-}
+
+
 
 .hero-container {
   display: flex;
   background-color: #fefaf5;
   justify-content: space-around;
+  align-items: center;
 }
 .hero-container__items {
   display: flex;
@@ -31,8 +25,10 @@
   margin: 10px 20px;
 }
 
-.title-container p {
+.title-container {
   font-size: small;
+  color: #335576;
+  flex-direction: column;
 }
 button {
   border-radius: 20px;
@@ -50,7 +46,8 @@ button a {
 
 .airplane-image {
   display: flex;
-  margin-left: 250px;
+  padding: 50px;
+  
 }
 .hot-deals {
   display: flex;
@@ -58,7 +55,7 @@ button a {
   height: 600px;
 }
 
-.recommendations h3 {
+.recommendations  {
   display: flex;
   color: #335576;
   margin: 30px 80px;
