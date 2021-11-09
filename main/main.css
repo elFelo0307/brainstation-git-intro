@@ -9,8 +9,15 @@
 .hero-container {
   display: flex;
   background-color: #fefaf5;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  align-items:flex-start;
+
+  flex-direction: column;
+  background-image: url(/brainstation-git-intro/assets/Images/hero.png);
+  background-repeat: no-repeat;
+  background-position: 90% 80%;
+  background-size: 25%;
+  height: 50vh;
 }
 .hero-container__items {
   display: flex;
@@ -26,9 +33,10 @@
 }
 
 .title-container {
-  font-size: small;
+  font-size:large;
   color: #335576;
   flex-direction: column;
+  
 }
 button {
   border-radius: 20px;

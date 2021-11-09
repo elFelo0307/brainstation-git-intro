@@ -1,8 +1,8 @@
-.nav-bar__list li {
+.nav-bar__list li  {
   display: inline-block;
   margin: 2px;
   align-items: baseline;
-  padding-right: 5px;
+  
 }
 .nav-bar__list a {
   text-decoration: none;
@@ -47,6 +47,7 @@
   width: 100vw;
   height: 50px;
   background-color: #ffffff;
+  padding-right: 50px;
 }
 .container h3 {
   margin: 80px;
